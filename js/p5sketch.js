@@ -2,7 +2,7 @@ let bubble1;
 let bubble2;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(windowWidth,windowHeight);
   bubble1 = new Bubble(200, 100);
   bubble2 = new Bubble(200, 200, 100);
 }
