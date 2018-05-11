@@ -3,8 +3,8 @@ let bubble2;
 
 function setup() {
   createCanvas(600, 400);
-  bubble1 = new Bubble(200, 200);
-  bubble2 = new Bubble(400, 200, 100);
+  bubble1 = new Bubble(200, 100);
+  bubble2 = new Bubble(200, 200, 100);
 }
 
 function draw() {
